@@ -408,9 +408,9 @@ msgid ""
 "\n"
 "To confirm this is correct, go to %(activate_url)s\n"
 msgstr ""
-"¡Te saluda %(site_name)s!\n"
+"¡Hola desde %(site_name)s!\n"
 "\n"
-"Estás recibiendo este correo electrónico porque el usuario  %(user_display)s "
+"Estás recibiendo este correo electrónico porque el usuario %(user_display)s "
 "ha dado su correo electrónico para conectar su cuenta.\n"
 "\n"
 "Para confirmar que esto es correcto, haz clic en %(activate_url)s\n"
@@ -426,7 +426,7 @@ msgstr ""
 
 #: templates/account/email/email_confirmation_subject.txt:3
 msgid "Please Confirm Your E-mail Address"
-msgstr "Por favor confirmar dirección de correo electrónico"
+msgstr "Por favor confirma tu dirección de correo electrónico"
 
 #: templates/account/email/password_reset_key_message.txt:1
 #, python-format
@@ -475,7 +475,7 @@ msgid ""
 "address for user %(user_display)s."
 msgstr ""
 "Por favor confirma que <a href=\"mailto:%(email)s\">%(email)s</a> es una "
-"dirección de correo electrónico del usuario %(user_display)s."
+"dirección de correo electrónico válida."
 
 #: templates/account/email_confirm.html:20
 msgid "Confirm"
