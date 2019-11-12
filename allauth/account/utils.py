@@ -167,11 +167,6 @@ def perform_login(request, user, email_verification,
                                     response=response,
                                     user=user,
                                     **signal_kwargs)
-        adapter.add_message(
-            request,
-            messages.SUCCESS,
-            'account/messages/logged_in.txt',
-            {'user': user})
     except ImmediateHttpResponse as e:
         response = e.response
     return response
