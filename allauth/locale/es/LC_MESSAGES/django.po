@@ -475,7 +475,7 @@ msgid ""
 "address for user %(user_display)s."
 msgstr ""
 "Por favor confirma que <a href=\"mailto:%(email)s\">%(email)s</a> es una "
-"dirección de correo electrónico válida."
+"dirección de correo electrónico el usuario %(user_display)s."
 
 #: templates/account/email_confirm.html:20
 msgid "Confirm"
